@@ -56,16 +56,17 @@ with st.sidebar:
         ["deepseek-r1:1.5b", "llama3.2:3b"],
         index=0
     )
+    # st.divider()
+    # st.markdown("### Model Capabilities")
+    # st.markdown("""
+    # - 🐍 Python Expert
+    # - 🐞 Debugging Assistant
+    # - 📝 Code Documentation
+    # - 💡 Solution Design
+    # """)
     st.divider()
-    st.markdown("### Model Capabilities")
-    st.markdown("""
-    - 🐍 Python Expert
-    - 🐞 Debugging Assistant
-    - 📝 Code Documentation
-    - 💡 Solution Design
-    """)
-    st.divider()
-    st.markdown("Built with [Ollama](https://ollama.ai/) | [LangChain](https://python.langchain.com/)")
+    st.markdown("- Powered by: [Streamlit](https://streamlit.io/)")
+    st.markdown("- Contributor: [Yash K. Saini](https://github.com/yashksaini-coder)")
 
 
 # initiate the chat engine
