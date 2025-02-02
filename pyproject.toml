@@ -1,0 +1,12 @@
+[project]
+name = "deepseek-r1-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.3.16",
+    "langchain-core>=0.3.33",
+    "langchain-ollama>=0.2.3",
+    "streamlit>=1.41.1",
+]
